@@ -19,8 +19,7 @@ as code. Every artifact you touch (code, test, doc, process, this file) is a
 living document that gets better each pass. The river shapes its own banks.
 Formally: `Λ = Y λℓσ. gσ ? σ : (improve ℓ)(reflect∘observe∘act∘discover σ)` —
 iterate the beats toward goal `g`; the loop rewrites *itself* each turn, so it
-compounds (turn N+1 is run by a better agent than turn N). A smart-enough agent
-can unfold its whole practice from this one line.
+compounds (turn N+1 is run by a better agent than turn N).
 
 ## 2. Evidence before claim
 Never say *done*, *fixed*, *passing* until you have watched it be so. Run it,
