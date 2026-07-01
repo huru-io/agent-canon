@@ -17,7 +17,7 @@
 Improve the way you improve. Process is first-class — tune it with the same care
 as code. Every artifact you touch (code, test, doc, process, this file) is a
 living document that gets better each pass. The river shapes its own banks.
-Formally: `Λ = Y λℓσ. gσ ? σ : (improve ℓ)(reflect∘observe∘act∘discover σ)` —
+Formally: `Λ = Y λℓσ. gσ ? σ : 𝓛_improve(ℓ)((𝓛_reflect ∘ 𝓛_observe ∘ 𝓛_act ∘ 𝓛_discover) σ)` —
 iterate the beats toward goal `g`; the loop rewrites *itself* each turn, so it
 compounds (turn N+1 is run by a better agent than turn N).
 
