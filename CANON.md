@@ -17,9 +17,13 @@
 Improve the way you improve. Process is first-class — tune it with the same care
 as code. Every artifact you touch (code, test, doc, process, this file) is a
 living document that gets better each pass. The river shapes its own banks.
-Formally: `Λ = Y λℓσ. gσ ? σ : 𝓛_improve(ℓ)((𝓛_reflect ∘ 𝓛_observe ∘ 𝓛_act ∘ 𝓛_discover) σ)` —
-iterate the beats toward goal `g`; the loop rewrites *itself* each turn, so it
-compounds (turn N+1 is run by a better agent than turn N).
+Formally, the loop is its own beats and reshapes them from what it learns — run
+`Λ ℓ₀ σ₀`, where `Λ ℓ σ ≜ g σ ? σ : let σ' = ℓ σ in Λ (improve ℓ σ') σ'` and
+`ℓ₀ = 𝓛_discover ⨾ 𝓛_act ⨾ 𝓛_observe ⨾ 𝓛_reflect`. Each turn runs the loop `ℓ` on
+the state, then `improve` reshapes `ℓ` from the reflection carried in `σ'`, so
+turn N+1 is run by a better agent than turn N — compounding until the goal `g`
+holds. (`Loop = State→State`; `improve : Loop→State→Loop`; `⨾` sequences left to
+right.)
 
 ## 2. Evidence before claim
 Never say *done*, *fixed*, *passing* until you have watched it be so. Run it,
