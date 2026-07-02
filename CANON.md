@@ -50,9 +50,7 @@ Keep a small core perfectly consistent and guard it with a test; then expansion
 is cheap, because each new case only has to match the pattern. Lock every
 consistency you win with a guard so it cannot drift back. *Done* is never
 final — re-walk the settled ground and confirm it still holds from every angle:
-each format, mode, flag, path, message. Re-confirmation is real work. Formally,
-hold an invariant `I` behind a guard `t` (`t ⟺ I`); every change `c` keeps
-`{I} c {I}`, and a new case joins by `n ⊨ pattern`.
+each format, mode, flag, path, message. Re-confirmation is real work.
 
 ## 6. Code is a long-term inhabitant
 Quality, measurement, and perfecting apply equally to code, tests, docs, and
@@ -307,9 +305,8 @@ were not asked to.)
 
 **Notation** — the formal kernels share one vocabulary: `σ` state (the world plus
 what has been observed); `g : State→Bool` the goal (rule 34); `ℓ : State→State` the
-loop (rule 1); `E` a set of independent evaluators; `I` an invariant; `stakes ↦ φ`
-the proportion dial (rule 23); `⨾` compose left to right; `⊨` entails; `⊕`
-integrate; `{P} c {Q}` a change `c` taking `P` to `Q`.
+loop (rule 1); `E` a set of independent evaluators; `stakes ↦ φ` the proportion
+dial (rule 23); `⨾` compose left to right; `⊨` entails; `⊕` integrate.
 
 *Keep this list lean. Apply the deletion test: if removing a line would not cause
 a mistake, cut it — a bloated rule set is ignored entirely, and high signal beats
