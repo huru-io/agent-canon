@@ -71,6 +71,11 @@ goal, never themselves; and **35**, the safety pole, brakes the autonomy so reac
 never becomes harm. Read it once for the spine; return to it for the tension
 between the rules.
 
+There is also an experimental **formal companion**, [`CANON2.md`](CANON2.md) — the
+same canon compiled to dense notation for agents: each rule a *kernel* plus *▷*
+obligations (what to construct in the harness), with a shared legend. For agents
+and the curious; `CANON.md` stays the source of truth.
+
 ## Adopt it
 
 **1. Point at it (recommended).** Add one line to your agent's instructions file
