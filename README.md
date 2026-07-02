@@ -103,9 +103,9 @@ engineering work.
 **2. Or vendor a fixed copy.** Prefer to pin a version or work offline? Copy
 [`CANON.md`](CANON.md) into your repo and paste its contents into your instructions
 file — or append it under a `# Operating canon` heading — to freeze the version you
-reviewed. It's plain Markdown with a stable, grep-able shape — every rule is
-`## N. Title` plus one paragraph — so you can extract any single rule by number or
-name.
+reviewed. It's Markdown with a stable, grep-able shape — every rule is
+`## N. Title` plus a paragraph, some carrying a formal kernel — so you can extract
+any single rule by number or name.
 
 **3. Resolve conflicts the canon's way.** When a rule and a task conflict, prefer
 the rule. When two rules conflict, prefer the whole over the part.
