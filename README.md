@@ -62,7 +62,7 @@ saving them. Every rule earned its place by paying off, more than once.
 35. Do no harm; guard the irreversible
 36. A guard must bite
 37. A subagent's word is a claim, not a receipt
-38. Give the loop a heartbeat and a scoreboard
+38. Decompose the goal into a scoreboard
 
 *The full text — one paragraph each — lives in [`CANON.md`](CANON.md).*
 

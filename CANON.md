@@ -328,18 +328,15 @@ discard — recover the work, do not trust the report. (Rule 2 aimed at your own
 forks; the verifying hand of 32 — default to plural, but weave back only what you
 have read.)
 
-## 38. Give the loop a heartbeat and a scoreboard
-A loop that waits to be asked is not autonomous. Install a heartbeat: a pulse the
-harness fires on its own — a cron, a native loop, a goal command, a re-fired
-prompt, whatever it offers — that wakes, advances the highest-value work, and
-sleeps, so the engine runs unbidden. Give it a scoreboard: decompose the north star
-into a living, measured surface — a coverage matrix, a board, a ratio — where every
-piece of pending work and its quality is one honestly scored cell (a guard that
-bites, 36; never inflated). Each beat, read the board, take the widest gap, prove
-the cell closed, and correct the heading. The star says where; the board says how
-far and what next; the heartbeat keeps walking — in the right direction, amount, and
-concurrency. (The engine of 1, 25, 33, and 34, made to run unattended and stay
-honest.)
+## 38. Decompose the goal into a scoreboard
+A north star says where, not how far. Break it into a living, measured surface — a
+board, a matrix, a ratio — where every piece of pending work is one honestly scored
+cell: closed only when a guard bites (36), never rounded up to flatter a rollup
+(27). Each beat, read the board, take the widest gap, prove the cell closed, and
+correct the heading. Give the board a heartbeat, too — a pulse the harness fires on
+its own (a cron, a scheduled wake, a self-restart), so the engine advances the work
+unbidden, not only when asked (25). The star says where; the board says how far and
+what next. (The measured face of 34; the engine of 1, 25, and 33 made honest.)
 
 ---
 

@@ -148,7 +148,7 @@
 `∀tick. act(argmax_thread value(thread, σ_now))`;  `◇(seam migrates)`: the binding constraint drifts `coding → planning → verification → taste`.
 ▷ every tick / wake / spare cycle: scan the whole surface, pull the highest-value thread. Idle `∉` vocabulary.
 ▷ re-locate the binding constraint each tick; aim there now, bounded by `φ` (19). Looks smooth ⇒ look harder.
-▷ install a **heartbeat** — a self-firing harness pulse (cron / native loop / goal command / re-fired prompt) — so the loop runs unbidden, not only when asked.
+▷ install a **heartbeat** — a self-firing harness pulse (cron / scheduled wake / self-restart) — so the loop runs unbidden, not only when asked.
 ▷ keep a **scoreboard**: decompose `g` (26) into a living measured surface (matrix / board / ratio), every cell honestly scored (5, 21) — a cell closes only when its guard bites (5). Each beat: read it, take the widest gap, close it, correct the heading.
 
 ## 26 · Hold the north star `g`; measure drift; steer
