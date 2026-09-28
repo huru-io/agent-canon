@@ -76,7 +76,8 @@ between the rules.
 
 There is also an experimental **formal companion**, [`CANON2.md`](CANON2.md) — the
 same canon compiled to dense notation for agents: each rule a *kernel* plus *▷*
-obligations (what to construct in the harness), with a shared legend. For agents
+obligations (what to construct in the harness), with a shared legend. Its 27 kernels
+are numbered on their own; each cites the `CANON.md` rules it compiles. For agents
 and the curious; `CANON.md` stays the source of truth.
 
 ## Adopt it
